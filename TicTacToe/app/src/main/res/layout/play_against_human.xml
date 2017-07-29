@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Choose Your Avatar :"
+            android:id="@+id/textView6"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_earth_p1"
+                    android:src="@drawable/avatar_earth"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_smile_p1"
+                    android:src="@drawable/avatar_smile"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_star_p1"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/avatar_star"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose Player 2's Avatar :"
+                android:id="@+id/textView7"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_earth_p2"
+                    android:src="@drawable/avatar_earth"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_smile_p2"
+                    android:src="@drawable/avatar_smile"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ib_avatar_star_p2"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/avatar_star"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:background="#00000000" />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PLAY"
+                android:id="@+id/btn_play"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffa100"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
